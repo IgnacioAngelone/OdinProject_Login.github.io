@@ -1,0 +1,403 @@
+/* ------------------ GENERAL CSS ------------------------ */
+
+* {
+
+margin: 0%;
+padding: 0%;
+box-sizing: 0%;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+
+display: flex;
+align-items: center;
+width: 100vw;
+height: 100vh;
+
+}
+
+/* ------------------ LEFT IMG CSS ------------------------ */
+
+#Leftimg {
+
+background-image: url(src/photo-1531292039036-7720ff2dadd5.webp);
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+box-shadow: inset -15px 0px 15px black;
+height: 100%;
+width: 35%;
+
+}
+
+
+#divimg {
+background-color: rgba(0, 0, 0, 0.705);
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+top: 25%;
+width: 100%;
+height: 25%;
+
+}
+
+#divimg img {
+
+height: 60%;
+width: 20%;
+
+}
+
+
+/* ------------------ LOGIN CSS ------------------------ */
+
+#Login {
+
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+width: 65%;
+height: 100%;
+
+}
+
+#Login_top {
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+gap: 45px;
+font-size: 1.4rem;
+font-weight: bold;
+width: 85%;
+height: 35%;
+
+}
+
+#Login_mid {
+
+display: flex;
+flex-direction: column;
+gap: 25px;
+width: 85%;
+height: 65%;
+
+}
+
+#Login_mid h1 {
+
+font-size: 2rem;
+font-weight: lighter;
+
+}
+
+#login {
+
+display: flex;
+gap: 100px;
+width: 100%;
+height: 100%;
+
+}
+
+#login label{
+
+font-size: 0.8rem;
+font-weight: lighter;
+
+}
+
+#login form{
+
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+
+#form_name {
+
+display: flex;
+gap: 100px;
+justify-content: flex-start;
+align-items: center;
+width: 100%;
+height: 50px;
+
+}
+
+#FIRST_NAME_DIV {
+
+display: flex;
+flex-direction: column;
+gap: 3px;
+width: 250px;
+
+}
+
+#FIRST_NAME_DIV input {
+
+border: 2px solid rgba(87, 87, 87, 0.493);
+border-radius: 3px;
+padding: 5px;
+
+}
+
+#FIRST_NAME_DIV input:focus {
+
+border: 2.5px solid rgb(27, 121, 23);
+outline: none;
+
+}
+
+#FIRST_NAME_DIV input:valid {
+
+border: 2px solid rgb(27, 121, 23);
+outline: none;
+background-color: rgb(255, 255, 255);
+
+}
+
+#LAST_NAME_DIV {
+
+display: flex;
+flex-direction: column;
+gap: 3px;
+width: 250px;
+
+}
+
+#LAST_NAME_DIV input {
+
+border: 1px solid rgba(87, 87, 87, 0.493);
+border-radius: 3px;
+padding: 5px;
+
+}
+
+#LAST_NAME_DIV input:focus {
+
+border: 2.5px solid rgb(27, 121, 23);
+outline: none;
+background-color: rgb(255, 255, 255);
+
+}
+
+#LAST_NAME_DIV input:valid {
+
+border: 2px solid rgb(27, 121, 23);
+outline: none;
+background-color: rgb(255, 255, 255);
+
+}
+
+/* ///////////////////////////////////////////////// */
+
+#form_contact {
+
+display: flex;
+gap: 100px;
+justify-content: flex-start;
+align-items: center;
+width: 100%;
+height: 50px;
+
+}
+
+#mail {
+
+display: flex;
+flex-direction: column;
+gap: 3px;
+width: 250px;
+
+}
+
+#mail input {
+
+border: 2px solid rgba(87, 87, 87, 0.493);
+border-radius: 3px;
+padding: 5px;
+
+}
+
+#mail input:focus {
+
+border: 2.5px solid rgb(27, 121, 23);
+outline: none;
+
+}
+
+#mail input:valid {
+
+border: 2px solid rgb(27, 121, 23);
+outline: none;
+background-color: rgb(255, 255, 255);
+
+}
+
+#number {
+
+display: flex;
+flex-direction: column;
+gap: 3px;
+width: 250px;
+
+}
+
+#number input {
+
+border: 1px solid rgba(87, 87, 87, 0.493);
+border-radius: 3px;
+padding: 5px;
+
+}
+
+#number input:focus {
+
+border: 2.5px solid rgb(27, 121, 23);
+outline: none;
+background-color: rgb(255, 255, 255);
+
+}
+
+#number input:valid {
+
+border: 2px solid rgb(27, 121, 23);
+outline: none;
+background-color: rgb(255, 255, 255);
+
+}
+
+/* ///////////////////////////////////////////////// */
+
+#form_password {
+
+display: flex;
+gap: 100px;
+justify-content: flex-start;
+align-items: center;
+width: 100%;
+height: 50px;
+
+}
+
+#password {
+
+display: flex;
+flex-direction: column;
+gap: 3px;
+width: 250px;
+height: 45px;
+
+}
+
+#password input {
+
+border: 2px solid rgba(87, 87, 87, 0.493);
+border-radius: 3px;
+padding: 5px;
+
+}
+
+#password input:focus {
+
+border: 2.5px solid rgb(27, 121, 23);
+outline: none;
+
+}
+
+#password input:valid {
+
+border: 2px solid rgb(27, 121, 23);
+outline: none;
+background-color: rgb(255, 255, 255);
+
+}
+
+#passwordcheck {
+
+display: flex;
+flex-direction: column;
+gap: 3px;
+width: 250px;
+height: 45px;
+
+}
+
+#passwordcheck input {
+
+border: 1px solid rgba(87, 87, 87, 0.493);
+border-radius: 3px;
+padding: 5px;
+
+}
+
+#passwordcheck input:focus {
+
+border: 2.5px solid rgb(27, 121, 23);
+outline: none;
+background-color: rgb(255, 255, 255);
+
+}
+
+#passwordcheck input:valid {
+
+border: 2px solid rgb(27, 121, 23);
+outline: none;
+background-color: rgb(255, 255, 255);
+
+}
+
+#notmach {
+
+color: red;
+
+}
+
+/* ------------------ LOGIN CSS ------------------------ */
+
+#form_btn {
+
+display: flex;
+padding: 30px 0px 0px 0px;
+flex-direction: column;
+gap: 25px;
+width: 100%;
+height: 150px;
+
+}
+
+#form_btn button{
+background-color: #596D48;
+color: white;
+
+border: 0px;
+font-size: 1rem;
+font-weight: bolder;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 7px;
+flex-direction: column;
+gap: 25px;
+width: 180px;
+height: 50px;
+
+}
+
+#form_btn a{
+
+text-decoration: none;
+color: #596D48;
+font-weight: bolder;
+
+}
